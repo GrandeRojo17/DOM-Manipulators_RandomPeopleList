@@ -60,7 +60,9 @@ function calculateWealth() {
   main.appendChild(wealthEl);
 }
 //create a clear all button.
-function clearAll() {}
+function clearAll() {
+  main.innerHTML = "<h2><strong>Person</strong>Wealth</h2>";
+}
 //I still have to work on the clear all button
 //add new obj to data arr
 function addData(obj) {
